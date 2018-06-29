@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.crm.seleniumDemo.seleniumCrmDemo">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="test_Order_2Navigation_Bar"/>
+          <include name="test_Order_3Menu_Little"/>
+          <include name="tearDown"/>
+          <include name="test_Order_1Management"/>
+        </methods>
+      </class> <!-- com.crm.seleniumDemo.seleniumCrmDemo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -7,9 +7,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testCrmNg1" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
           <include name="testCrmNg3" invocation-numbers="0"/>
-          <include name="testCrmNg2" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.crmtestng.selenuimCrmTest -->
     </classes>

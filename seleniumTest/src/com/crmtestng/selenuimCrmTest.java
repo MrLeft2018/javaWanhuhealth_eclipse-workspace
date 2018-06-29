@@ -127,6 +127,8 @@ public void  setUp()  {
  
   }
  
+ @Test
+ 
 //执行完所有测试场景后执行
 @AfterSuite
  //退出
