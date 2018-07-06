@@ -16,7 +16,6 @@ import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import static org.testng.Assert.assertEquals;
-
 import com.crm.page.LoginPage;
 import com.crm.publics.LoginUser;
 import com.crm.publics.OrderOMS;
@@ -29,7 +28,7 @@ import org.testng.Reporter;
 public class seleniumCrmDemo<firefoxOptions> {
 	public WebDriver driver;
 	public String baseUrl;
-//  private ChromeOptions chromeOptions;
+    private ChromeOptions chromeOptions;
 //  private FirefoxBinary firefoxBinary;
 //  private FirefoxOptions firefoxOptions;
 
@@ -41,7 +40,7 @@ public class seleniumCrmDemo<firefoxOptions> {
   @BeforeSuite
 public void  setUp()  {
 	 //chromœÍœ∏µÿ÷∑ 
-	System.setProperty("webdriver.chrome.driver","K:\\JaWebdriver\\chromedriver.exe");	
+	System.setProperty("webdriver.chrome.driver","K:\\java\\JaWebdriver\\chromedriver.exe");	
 	//∂®“Â‰Ø¿¿∆˜  
 	
 	//chromeOptions = new ChromeOptions();

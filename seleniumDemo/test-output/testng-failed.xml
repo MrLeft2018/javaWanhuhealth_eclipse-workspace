@@ -5,7 +5,7 @@
     <classes>
       <class name="com.crm.seleniumDemo.seleniumCrmDemo">
         <methods>
-          <include name="login"/>
+          <include name="login" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="test_Order_2Navigation_Bar"/>
           <include name="test_Order_3Menu_Little"/>
